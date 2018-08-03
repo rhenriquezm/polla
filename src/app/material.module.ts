@@ -36,7 +36,8 @@ import {
 } from '@angular/material';
 
 @NgModule({
-    imports: [MatAutocompleteModule,
+    imports: [
+        MatAutocompleteModule,
         MatButtonModule,
         MatButtonToggleModule,
         MatCardModule,
@@ -68,7 +69,8 @@ import {
         MatTabsModule,
         MatToolbarModule,
         MatTooltipModule],
-    exports: [MatAutocompleteModule,
+    exports: [
+        MatAutocompleteModule,
         MatButtonModule,
         MatButtonToggleModule,
         MatCardModule,
